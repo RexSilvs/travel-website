@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    
+}   
+.hero{
+    background: url(/images/pexels-nate-hovee-4661784.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.nav h3:hover {
+    cursor: pointer;
+}
+.hero h1{
+    margin-top: 150px;
+    text-align: center;
+}
+.nav h3{
+    margin: auto;
+    color: black;
+}
+.nav li{
+    display: inline-block;
+    line-height: 50px
+
+}
+.nav li a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}
+.hero-high{
+    background-color: transparent;
+    width: 100%;
+}
+.contents{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: brown;
+}
+.contents >div{
+    flex: 1;
+    margin: auto;
+    text-align: center;   
+}
+.none{
+    height: 50px;
+    width: 100%;
+}
